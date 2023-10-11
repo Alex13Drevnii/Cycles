@@ -5,8 +5,8 @@ import java.util.Scanner;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
+        int count = 0; //Количество найденных путей
         while (true) {
-            int count = 0; //Количество найденных путей
             System.out.println("Введите путь к файлу:");
             String path = new Scanner(System.in).nextLine();
 
